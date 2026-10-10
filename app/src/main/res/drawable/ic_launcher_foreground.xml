@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Viewfinder Corners -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,36 L30,28 L38,28" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M70,28 L78,28 L78,36" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,72 L30,80 L38,80" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M70,80 L78,80 L78,72" />
+
+    <!-- Document Sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,33 L62,33 C64.2,33 66,34.8 66,37 L66,71 C66,73.2 64.2,75 62,75 L38,75 C35.8,75 34,73.2 34,71 L34,37 C34,34.8 35.8,33 38,33 Z" />
+
+    <!-- Document Text Lines -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M40,43 L60,43 A1.5,1.5 0 0,0 60,40 L40,40 A1.5,1.5 0 0,0 40,43 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M40,51 L56,51 A1.5,1.5 0 0,0 56,48 L40,48 A1.5,1.5 0 0,0 40,51 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M40,59 L58,59 A1.5,1.5 0 0,0 58,56 L40,56 A1.5,1.5 0 0,0 40,59 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M40,67 L50,67 A1.5,1.5 0 0,0 50,64 L40,64 A1.5,1.5 0 0,0 40,67 Z" />
+
+    <!-- Laser Scan Beam Line -->
+    <path
+        android:strokeColor="#0284C7"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M26,53 L82,53" />
+</vector>

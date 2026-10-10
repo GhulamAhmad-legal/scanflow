@@ -1,0 +1,6 @@
+{
+  "name": "ScanFlow",
+  "description": "Smart on-device document scanner with edge detection, perspective warp, filters, ML Kit OCR, searchable PDF export, full-text search, PDF tools, e-signatures, vector markup, watermarks, biometric locking, and ID card/passport composer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
