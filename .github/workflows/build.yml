@@ -12,16 +12,13 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - uses: subosito/flutter-action@v2
+      - uses: gradle/actions/setup-gradle@v4
         with:
-          channel: stable
-          cache: true
+          gradle-version: '8.11.1'
 
-      - run: flutter --version
-      - run: flutter pub get
-      - run: flutter build apk --release
+      - run: gradle assembleDebug --stacktrace
 
       - uses: actions/upload-artifact@v4
         with:
-          name: app-release
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
